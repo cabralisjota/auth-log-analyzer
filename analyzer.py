@@ -1,5 +1,6 @@
 import re
 
+THRESHOLD = 3
 counts = {}
 
 with open("auth.log") as f:
@@ -10,5 +11,9 @@ with open("auth.log") as f:
                 ip = match.group(1)
                 counts[ip] = counts.get(ip, 0) + 1
 
+print("=== Failed Login Report ===")
 for ip, total in counts.items():
-    print(ip, "failed", total, "times")
+    if total > THRESHOLD:
+        print("SUSPICIOUS:", ip, "-", total, "failed attempts")
+    else:
+        print("ok:", ip, "-", total, "failed attempts")
