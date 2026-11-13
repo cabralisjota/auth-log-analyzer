@@ -1,0 +1,8 @@
+Nov 13 07:01:12 server sshd[1021]: Accepted password for alice from 192.168.1.10 port 51234 ssh2
+Nov 13 07:02:45 server sshd[1033]: Failed password for root from 203.0.113.5 port 40122 ssh2
+Nov 13 07:02:48 server sshd[1033]: Failed password for root from 203.0.113.5 port 40123 ssh2
+Nov 13 07:02:51 server sshd[1033]: Failed password for root from 203.0.113.5 port 40124 ssh2
+Nov 13 07:03:10 server sshd[1040]: Failed password for admin from 198.51.100.7 port 52311 ssh2
+Nov 13 07:04:02 server sshd[1052]: Accepted password for bob from 192.168.1.22 port 49876 ssh2
+Nov 13 07:05:30 server sshd[1061]: Failed password for root from 203.0.113.5 port 40130 ssh2
+Nov 13 07:05:33 server sshd[1061]: Failed password for root from 203.0.113.5 port 40131 ssh2
